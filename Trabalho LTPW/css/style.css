@@ -1,0 +1,169 @@
+
+body {
+    background-color: rgb(22, 19, 19);
+    margin: 0em;
+    background-image: url(../img/MULHERESSS.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#pag {
+    width: 842px;
+    margin: auto;
+    color: black;
+    background-color: bisque;
+}
+#principal {
+    margin-left: 100px;
+}
+
+header {
+    background-color: rgb(255, 20, 20);
+    background-image: url(../img/MUL.png);
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: right;
+}
+
+#batman {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+}
+
+#centro {
+    color: white;
+}
+
+header h3 {
+    font-family: 'Gwendolyn', cursive;
+    color: white;
+    font-size: 4.3em;
+    margin-top: 0px;
+}
+
+header p {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 110px;
+}
+
+nav {
+    background-color: #f50799;
+    color: rgb(255, 233, 233);
+    padding: 1em;
+    max-width: 100%;
+    margin-left: 179px;
+    margin-right: 179px;
+    height: 5em;
+}
+
+#conteudo {
+    background-color: hsl(337, 97%, 71%);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    max-width: 100%;
+    min-height: 55em;
+    margin-left: 179px;
+    margin-right: 179px;
+    clear: both;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    min-height: 3em;
+    max-height: 100%;
+    margin-left: 179px;
+    margin-right: 179px;
+}
+
+#popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(245, 160, 224, 0.61);
+}
+#fechar{
+    position: absolute;
+    right: 80px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    color: azure;
+    font-size: 3em;
+    font-family: 'tahoma';
+    cursor: pointer;
+
+}
+
+#quadro {
+    width: 40%;
+    margin: 15% auto;
+    text-align: center;
+    background-color: beige;
+    padding: 5%;
+    border-radius: 10px;
+
+
+}
+
+#popup input{
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+#quadro a{
+        text-decoration: none;
+
+}
+#quadro a:hover {
+    text-decoration: underline;
+}
+
+#msg{
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+ul li{
+    float: left;
+    text-decoration: none;
+    width:20%;
+    background-color: rgb(255, 158, 234);
+    margin-left: 1em;
+    list-style: none;
+    text-align: center;
+}
+ul li:hover{
+    background-color: rgb(224, 207, 207);
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   display: block;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li a:hover{
+    color:rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: #f50799;
+    border-radius: 5px;
+    padding: 4px;
+}
